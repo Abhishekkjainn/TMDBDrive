@@ -14,17 +14,17 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  late Future<List<MovieModel>> UpComingMovies;
-  late Future<List<MovieModel>> PopularMovies;
-  late Future<List<MovieModel>> NowShowingMovies;
-  late Future<List<MovieModel>> TopRatedMovies;
+  // late Future<List<MovieModel>> UpComingMovies;
+  // late Future<List<MovieModel>> PopularMovies;
+  // late Future<List<MovieModel>> NowShowingMovies;
+  // late Future<List<MovieModel>> TopRatedMovies;
 
   @override
   void initState() {
-    PopularMovies = api().getPopularMovies();
-    UpComingMovies = api().getUpcomingMovies();
-    NowShowingMovies = api().getNowShowingMovies();
-    TopRatedMovies = api().getTopRatedMovies();
+    // PopularMovies = api().getPopularMovies();
+    // UpComingMovies = api().getUpcomingMovies();
+    // NowShowingMovies = api().getNowShowingMovies();
+    // TopRatedMovies = api().getTopRatedMovies();
     super.initState();
   }
 
